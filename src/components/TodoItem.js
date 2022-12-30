@@ -48,7 +48,7 @@ function TodoItem({ task }) {
 	};
 
 	const completedStyle = {
-		color: isCompleted ? "green" : "#2c2c2c",
+		color: isCompleted ? "red" : "#2c2c2c",
 	};
 
 	return (
